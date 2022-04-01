@@ -23,6 +23,9 @@ $ git config --local -l    // 查看局部配置列表
 # 查看所有的配置以及它们所在的文件
 $ git config --list --show-origin
 
+# 修改本地默认分支 master变为main
+$ git config --global init.defaultBranch main
+
 # 设置全局用户名/邮箱
 $ git config --global user.name "姓名"
 $ git config --global user.email "example@example.com"
