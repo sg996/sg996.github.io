@@ -1,0 +1,26 @@
+# Icon 相关
+
+- [<Badge type="danger" text="Top" vertical="middle" /> Icônes](https://icones.js.org/)`由Iconify提供的带有即时搜索功能的图标资源管理器`
+- [<Badge type="danger" text="Top" vertical="middle" /> Lordicon](https://lordicon.com/)`Lordicon是一个强大的库，有2005个动画图标`
+- [<Badge type="danger" text="Top" vertical="middle" /> Iconfont - 阿里巴巴矢量图标库](https://www.iconfont.cn/)`支持 SVG、AI、PNG 下载`
+- [IconPark - 字节矢量图标库](https://iconpark.oceanengine.com/official)`支持 SVG、PNG 下载`
+- [Font Awesome - 图标字体库和 CSS 框架](https://fa5.dashgame.com/)`提供免费和专业版`
+- [Bootstrap 图标库](https://icons.bootcss.com/)`支持 SVG 下载`
+- [<Badge type="danger" text="Top" vertical="middle" /> Remix Icon](https://remixicon.com/)`支持 SVG、PNG 下载`
+- [<Badge type="danger" text="Top" vertical="middle" /> Boxicons](https://boxicons.com/)`支持 SVG、PNG 下载`
+- [<Badge type="danger" text="Top" vertical="middle" /> iconshock](https://www.iconshock.com/)`支持 SVG 下载`
+- [ionic](https://ionic.io/ionicons)`支持 SVG 下载`
+- [IcoMoon](https://icomoon.io/app/#/select)`支持 SVG、PNG...下载`
+- [<Badge type="danger" text="Top" vertical="middle" /> iconduck](https://iconduck.com/)`支持 SVG 下载`
+- [Icon-rainbow](https://free-icon-rainbow.com/)`支持 PNG、JPG、SVG 下载`
+- [<Badge type="danger" text="Top" vertical="middle" /> Eva Icons](https://akveo.github.io/eva-icons/)`支持 SVG、PNG 下载`
+- [Feather](https://feathericons.com/)`支持 SVG 下载`
+- [<Badge type="danger" text="Top" vertical="middle" /> css.gg](https://css.gg/)`支持 SVG...下载`
+- [xicons](https://www.xicons.org/#/zh-CN)
+- [iconic](https://iconic.app/)
+- [CSS3 Icons](http://www.uiplayground.in/css3-icons/)
+- [macOSicons](https://macosicons.com/)`支持 ICNS下载`
+- [IconArchive](https://iconarchive.com/)`支持 PNG、ICO、ICNS下载`
+- [Favicon Generator](https://realfavicongenerator.net/)` 生成 favicon`
+- [符号大全](http://www.fuhaodaquan.org/)
+- [图标之家](http://www.icosky.com/)
