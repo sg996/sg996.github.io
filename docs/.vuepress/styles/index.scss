@@ -1,0 +1,16 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--c-brand);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--c-border);
+}

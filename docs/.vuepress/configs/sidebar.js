@@ -1,0 +1,62 @@
+module.exports = {
+  "/bookmarks/": [
+    {
+      text: "书签",
+      children: [
+        "/bookmarks/README.md",
+        "/bookmarks/GitHub.md",
+        "/bookmarks/Books.md",
+        "/bookmarks/Tools.md",
+        "/bookmarks/Icon.md",
+        "/bookmarks/Pictures.md",
+        "/bookmarks/Interview.md",
+      ],
+    },
+  ],
+  "/blog/": [
+    {
+      text: "CSS",
+      children: ["/blog/CSS/README.md"],
+    },
+    {
+      text: "JavaScript",
+      children: ["/blog/JavaScript/README.md", "/blog/JavaScript/jsTips.md"],
+    },
+    {
+      text: "面试题集",
+      children: ["/blog/Interviews/README.md"],
+    },
+    {
+      text: "Git",
+      children: [
+        "/blog/Git/README.md",
+        "/blog/Git/git-QA.md",
+        "/blog/Git/npm.md"
+      ],
+    },
+    {
+      text: "其他",
+      children: [
+        "/blog/Others/README.md",
+        {
+          text: "实用小技巧",
+          children: [
+            "/blog/Others/UsefulTips/README.md",
+            "/blog/Others/UsefulTips/ShortcutKeys.md",
+          ],
+        },
+        "/blog/Others/TODO.md",
+      ],
+    },
+  ],
+  "/plugin/": [
+    {
+      text: "插件",
+      children: [
+        "/plugin/README.md",
+        "/plugin/VSCode-QA.md",
+        "/plugin/Google.md",
+      ],
+    },
+  ],
+};
