@@ -259,7 +259,10 @@ $ git switch -C <branch-name>
 $ git fetch
 
 # 检出远程指定分支
+$ git fetch origin <branch-name>:<branch-name>
+
 $ git fetch origin :<branch-name>
+# 等价于
 $ git fetch origin master:<branch-name>
 ```
 

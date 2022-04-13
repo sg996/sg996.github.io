@@ -391,3 +391,15 @@ set-ExecutionPolicy RemoteSigned
 ```sh
 git config --global http.sslVerify "false"
 ```
+
+## `005`\_fatal: refusing to merge unrelated histories 解决
+
+```sh
+# 允许不相关历史提交，强制合并，然后本地处理冲突之后再进行提交
+$ git pull origin master --allow-unrelated-histories
+
+$ git pull --allow-unrelated-histories
+
+$ git merge master --allow-unrelated-histories
+
+```
