@@ -259,11 +259,16 @@ $ git switch -C <branch-name>
 $ git fetch
 
 # 检出远程指定分支
-$ git fetch origin <branch-name>:<branch-name>
-
 $ git fetch origin :<branch-name>
 # 等价于
 $ git fetch origin master:<branch-name>
+
+# 方式一：
+$ git fetch origin <branch-name>:<branch-name>
+# 方式二：
+$ git pull origin <branch-name>:<branch-name>
+# 推送需注意
+$ git push --set-upstream origin <branch-name>
 ```
 
 ## 12. 删除分支
@@ -412,7 +417,57 @@ $ git reflog
 $ git log -g --abbrev-commit --pretty=oneline
 ```
 
-## 17. 其他命令
+## 17. 回滚版本
+
+::: tip 介绍
+回滚版本有 2 种方法：
+
+- git reset - 回滚版本后之前的历史记录将不保存, 不保留痕迹, 基本上不存在冲突情况。
+- git revert - 回滚版本后之前的历史记录还存在并多增加了一条 Revert 记录，很容易出现冲突。
+  :::
+
+```sh
+# 回滚上一个版本
+$ git reset --hard HEAD^
+
+# 回滚上两个版本
+$ git reset --hard HEAD^^
+
+# 回滚到指定 commit_id ， 通过 git log 查看
+$ git reset --hard 'commit id'
+
+# 回滚后但未推送到远程想断开当前操作执行拉取即可：
+$ git pull
+
+# 推送
+$ git push -f
+```
+
+```sh
+# 回滚上一次提交版本
+$ git revert HEAD^
+
+# 回滚指定commit
+$ git revert 8efef3d37
+
+# --no-edit 回滚并跳过编辑消息
+$ git revert HEAD^ --no-edit
+
+# 断开当前操作，还原初始状态
+$ git revert --abort
+
+# 推送到远程，假设当前是 main 分支
+$ git push -u origin main
+```
+
+```sh
+# 回滚到指定分支或Commit_id指定文件, 命令：
+$ git checkout main 1.txt 2.txt
+
+$ git checkout 8efef3d37 1.txt 2.txt
+```
+
+## 18. 其他命令
 
 ```sh
 # 切换目录
