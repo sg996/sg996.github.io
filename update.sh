@@ -6,8 +6,10 @@ set -e
 git config --local user.name "sg996"
 git config --local user.email "1942459198@qq.com"
 
+note=`git status`
+
 git add -A
-git commit -m "update"
+git commit -m "$note"
 
 # git branch --set-upstream-to=github-origin/main main
 # git branch --set-upstream-to=gitee-origin/master main

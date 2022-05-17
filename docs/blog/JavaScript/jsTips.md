@@ -55,7 +55,7 @@ arr.map(Boolean);
 // [true, false, true, true, true, true, false, true, true, false, false, false, false]
 ```
 
-## 004\_字符串'true'、'false'转换为 Boolean 类型
+## 004\_'true'、'false'转 Boolean 类型
 
 ```js
 JSON.parse("true"); // true
@@ -101,4 +101,9 @@ const foo = [
 ];
 
 foo.map(i => i.id); // [1, 2, 5, 2, 1, 8, 10, 12, 8]
+```
+
+## 008\_给方法传一个空参数
+```js
+method(...['parameter1', , 'parameter3']); 
 ```

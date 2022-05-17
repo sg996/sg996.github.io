@@ -15,16 +15,12 @@ module.exports = {
   ],
   "/blog/": [
     {
-      text: "CSS",
+      text: "CSS 笔记",
       children: ["/blog/CSS/README.md"],
     },
     {
       text: "JavaScript",
       children: ["/blog/JavaScript/README.md", "/blog/JavaScript/jsTips.md"],
-    },
-    {
-      text: "面试题集",
-      children: ["/blog/Interviews/README.md"],
     },
     {
       text: "Git",

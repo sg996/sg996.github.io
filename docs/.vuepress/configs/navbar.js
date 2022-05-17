@@ -11,16 +11,12 @@ module.exports = [
         text: "博客",
         children: [
             {
-                text: "CSS",
+                text: "CSS 笔记",
                 link: "/blog/CSS/",
             },
             {
                 text: "JavaScript",
                 link: "/blog/JavaScript/",
-            },
-            {
-                text: "面试题集",
-                link: "/blog/Interviews/",
             },
             {
                 text: "Git",
