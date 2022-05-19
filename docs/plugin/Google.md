@@ -5,14 +5,14 @@
 [极简插件](https://chrome.zzzmh.cn/)&#X3000;
 [插件大全](http://cd.cduukj.com/)&#X3000;
 [GugeApps](https://www.gugeapps.net/)<br/><br/>
-可以在以上插件市场下载 `集装箱`（免费）或者 `Ghelper`（付费，新用户三天免费试用）插件进行富强上网，
+可以在以上插件市场下载 `集装箱`（免费）或者 `Ghelper`（付费，新用户三天免费试用）插件进行上网，
 然后到官方[Chrome 网上应用店](https://chrome.google.com/webstore/category/extensions?utm_source=chrome-ntp-icon)下载喜欢的插件，来提高工作效率。
 :::
 
 ## 1. [Ghelper](http://googlehelper.net/)
 
 ::: tip 概述
-专门为科研、外贸、海淘人员、开发人员服务的上网加速工具，chrome 内核浏览器专用！可以解决 chrome 扩展无法自动更新的问题，同时可以访问谷歌 google 搜索，gmail 邮箱，google+等谷歌产品。
+上网加速工具，chrome 内核浏览器专用！可以解决 chrome 扩展无法自动更新的问题，同时可以访问谷歌 google 搜索，gmail 邮箱，google+等谷歌产品。
 :::
 
 ## 2. [扩展管理器（Extension Manager）](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
