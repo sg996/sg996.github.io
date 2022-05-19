@@ -54,8 +54,14 @@ arr.map(Number);
 arr.map(Boolean);
 // [true, false, true, true, true, true, false, true, true, false, false, false, false]
 ```
+## 004\_filter(Boolean) 
 
-## 004\_'true'、'false'转 Boolean 类型
+```js
+// 移除所有的 “false” 类型元素（false, null, undefined, 0, NaN, an empty string）
+let arr = [1, 0, false, 'true', {}, null, undefined, NaN, '', , 'false'];
+arr.filter(Boolean); // [1, 'true', {}, 'false']
+```
+## 005\_'true'、'false'转 Boolean 类型
 
 ```js
 JSON.parse("true"); // true
@@ -63,14 +69,14 @@ JSON.parse("false"); // false
 JSON.parse(true); // true
 JSON.parse(false); // false
 ```
-## 005\_模板字符串嵌套
+## 006\_模板字符串嵌套
 
 ```js
 const a = 20, b = 30, c = '三', d = '日';
 const res = `今天星期${Math.random() > 0.5 ? `${c}` : `${d}`}，签到人数${Math.random() > 0.5 ? `${a}` : `${b}`}人`;
 console.log(res);
 ```
-## 006\_多属性不为空过滤并字符拼接
+## 007\_多属性不为空过滤并字符拼接
 
 ```js
 // 可以使用 Object.values()
@@ -85,7 +91,7 @@ const obj = {
 Object.values(obj).filter(i => i !== '').join('-');
 // 'vue-router-react-redux'
 ```
-## 007\_对象数组过滤出指定属性
+## 008\_对象数组过滤出指定属性
 
 ```js
 const foo = [
@@ -103,7 +109,7 @@ const foo = [
 foo.map(i => i.id); // [1, 2, 5, 2, 1, 8, 10, 12, 8]
 ```
 
-## 008\_给方法传一个空参数
+## 009\_给方法传一个空参数
 ```js
 method(...['parameter1', , 'parameter3']); 
 ```

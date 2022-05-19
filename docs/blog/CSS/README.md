@@ -21,16 +21,16 @@ div:empty::before {
 ## 002\_文本省略号
 
 ```css
-# 单行文本
-{
+/* 单行文本 */ 
+p {
     width: 100px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
-# 多行文本
-{
+/* 多行文本 */ 
+p {
     display: -webkit-box;
     /* autoprefixer: off */ /* webpack 打包兼容问题 */
     -webkit-box-orient: vertical; /*设置方向*/
@@ -40,3 +40,16 @@ div:empty::before {
     word-break: break-all; /* 处理字母数字折行*/ 
 }
 ```
+
+## 003\_去除行内元素左右间隙
+- 父元素设置 font-size:0;
+- 元素设置float: left;
+- 元素设置display: table-cell;
+
+## 004\_去除 img 底部间隙
+- 父元素设置 font-size:0;
+- 元素设置vertical-align: bottom;
+- 元素设置display: block;或者display: flex;
+
+## 005\_纯英文、数字文本自动换行处理（默认不换行）
+- 设置word-break: break-all;
