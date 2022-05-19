@@ -14,7 +14,7 @@
 ## 001\_空元素设置占位符
 
 ```css
-div:empty::before {
+:empty::before {
    content: "-";
 }
 ```
@@ -42,14 +42,17 @@ p {
 ```
 
 ## 003\_去除行内元素左右间隙
-- 父元素设置 font-size:0;
-- 元素设置float: left;
-- 元素设置display: table-cell;
+
+- 父元素设置`font-size:0;`
+- 元素设置`float: left;`
+- 元素设置`display: table-cell;`
 
 ## 004\_去除 img 底部间隙
-- 父元素设置 font-size:0;
-- 元素设置vertical-align: bottom;
-- 元素设置display: block;或者display: flex;
+
+- 父元素设置`font-size:0;`
+- 元素设置`vertical-align: bottom;`
+- 元素设置`display: block;`或者`display: flex;`
 
 ## 005\_纯英文、数字文本自动换行处理（默认不换行）
-- 设置word-break: break-all;
+
+- 设置`word-break: break-all;`

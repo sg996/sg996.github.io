@@ -30,7 +30,7 @@ arr.join(); // '1,2,3,4,5'
 arr.toString();  // '1,2,3,4,5'
 ```
 
-## 003_map(Number)、map(String)、map(Boolean) 转换类型
+## 003_map(Number)、map(String)、map(Boolean) 
 
 ```js
 # 字符串数组转换为数值型数组
