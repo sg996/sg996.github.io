@@ -403,3 +403,9 @@ $ git pull --allow-unrelated-histories
 $ git merge master --allow-unrelated-histories
 
 ```
+
+## `006`\_husky > npm run -s precommit (node v10.xx.xx)
+
+```sh
+$ git commit -m "提交页面备注" --no-verify
+```
