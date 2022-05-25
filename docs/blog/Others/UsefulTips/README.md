@@ -1,5 +1,11 @@
 # 电脑系统相关整理
 
+
+## 查看 IP 地址
+
+- `window`中可以在 cmd 中输入 `ipconfig`
+- `mac` 中可以在 cmd 中输入 `ifconfig`
+
 ## Win10 快捷键
 
 > 参考资料：[【官方】Windows 的键盘快捷方式](https://support.microsoft.com/zh-cn/windows/windows-%E7%9A%84%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F-dcc61a57-8ff0-cffe-9796-cb9706c75eec)
