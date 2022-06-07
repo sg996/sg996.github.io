@@ -6,6 +6,8 @@
 <kbd>20211202</kbd>
 <kbd>腰间盘突出</kbd>
 <kbd>多仓库同步</kbd>
+<kbd>勒洛三角形</kbd>
+<kbd>拉瓦尔喷管</kbd>
 
 <style scoped>
     kbd{

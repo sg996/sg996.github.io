@@ -1,5 +1,7 @@
+const { copyCode } = require("vuepress-plugin-copy-code2");
 const navbar = require('./configs/navbar.js');
 const sidebar = require('./configs/sidebar.js');
+
 module.exports = {
     docsDir: 'docs',
     lang: 'zh-CN',
@@ -7,7 +9,7 @@ module.exports = {
     description: '个人学习笔记 ✍',
     host: 'localhost',
     port: 5000,
-    open:true,
+    open: true,
     themeConfig: {
         darkMode: true,
         logo: null,
@@ -41,4 +43,11 @@ module.exports = {
             }
         }
     },
+    plugins: [
+        // https://vuepress-theme-hope.github.io/v2/copy-code/zh/
+        copyCode({
+            // 插件选项
+            pure: true,
+        }),
+    ]
 }
