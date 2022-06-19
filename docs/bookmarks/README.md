@@ -6,30 +6,6 @@ prev:
 
 # 前端相关
 
-<script>
-  export default {
-    data(){
-     return {
-        msg:`javascript: (function () {
-                if (typeof hasOutline == "undefined") hasOutline = false;   
-                  document.querySelectorAll("*").forEach(item => {
-                  item.style.outline = hasOutline ? "none" : "1px solid #" + (~~(Math.random() * (1 << 24))).toString(16);
-                });
-                  hasOutline = !hasOutline;
-              })();`
-     }
-    }
-  }
-</script>
-
-:::tip 实用书签
-
-<a :href="msg">页面上所有元素的轮廓标记</a>
-
-[各种骚操作，中文网最全 Bookmarklet 小书签](https://www.runningcheese.com/bookmarklet)
-
-:::
-
 ## 日常
 
 ::: tip MDN
@@ -48,7 +24,7 @@ prev:
 - [DeepL](https://www.deepl.com/translator)`全世界最准确的翻译`
 - [谷歌翻译](https://translate.google.cn/)
 
-## 摸鱼网站
+## 常用网站
 
 - [百度热搜](https://top.baidu.com/board)
 - [掘金酱](https://e.juejin.cn/)
