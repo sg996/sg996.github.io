@@ -29,3 +29,9 @@
 :::
 
 > 参考资料：[VsCode 中 ctrl+s 后会在当前目录下自动生成 dist 目录](https://blog.csdn.net/weixin_38233549/article/details/108226135)
+
+## 003.VSCode 无法更改文件夹名称
+
+::: tip 解决办法：
+删除文件内`node_modules`目录，在进行重命名操作。
+:::

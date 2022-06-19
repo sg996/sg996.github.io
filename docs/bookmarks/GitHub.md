@@ -5,6 +5,7 @@
 - [GitHub Support](https://support.github.com/)
 - [GitHub Support Community](https://github.community/)
 - [GitHub Docs](https://docs.github.com/cn)
+- [Extend GitHub](https://github.com/marketplace)
 
 ## 月刊、周报、算法
 
