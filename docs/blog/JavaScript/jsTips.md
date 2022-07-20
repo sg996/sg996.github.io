@@ -88,7 +88,7 @@ const obj = {
   e: '',
   f: 'redux',
 };
-Object.values(obj).filter(i => i !== '').join('-');
+Object.values(obj).filter(Boolean).join('-');
 // 'vue-router-react-redux'
 ```
 ## 008\_对象数组过滤出指定属性
