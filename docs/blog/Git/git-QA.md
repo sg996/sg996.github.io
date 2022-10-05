@@ -129,6 +129,18 @@ git config --global --add safe.directory "*"
 > 参考资料：[git报错 fatal: unsafe repository](https://www.aspirantzhang.com/network/git-fatal-unsafe-repository.html)
 :::
 
+::: danger 如遇报错
+Unable to negotiate with xxxxx port 22: no matching host key type found.
+
+- 在`config`文件中添加
+```sh
+Host *
+HostkeyAlgorithms +ssh-rsa
+PubkeyAcceptedKeyTypes +ssh-rsa
+```
+> 参考资料：[Unable to negotiate with xxxxx port 22: no matching host key type found. Their offer: ssh-rsa报错的解决方法](https://blog.csdn.net/oqqLWX/article/details/122305908)
+:::
+
 
 ## `002`\_本地调试 npm 模块
 
