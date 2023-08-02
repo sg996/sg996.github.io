@@ -54,8 +54,10 @@ $ git config --unset --global user.email
 $ git config --global credential.helper store   # 永久
 $ git config --global credential.helper cache   # 临时，默认15分钟
 ```
-```shell{2,5}
-# windows 文件设置为大小写敏感
+```shell{2,4,7}
+# 查看 git 大小写不敏感
+$ git config core.ignorecase
+# 文件设置为大小写敏感
 $ git config core.ignorecase false
 
 # 忽略目录安全限制
@@ -94,7 +96,7 @@ $ git remote
 # 查看当前项目远程仓库地址
 $ git remote -v
 
-# 自定义远程仓库名称（example 是自定义名字） 
+# 自定义远程仓库名称（example 是自定义名字）
 $ git remote add <example> git@github.com:sg996/vue3-todo-list.git
 
 # 查看指定远程仓库信息
@@ -144,7 +146,7 @@ $ git commit --allow-empty-message
 $ git commit --amend -m "new message"
 
 # 跳过验证，如果使用了类似 husky 工具。
-$ git commit --no-verify -m "message" 
+$ git commit --no-verify -m "message"
 ```
 ## 7. 推送远端
 ```shell{3,6,9}
@@ -309,11 +311,11 @@ $ git stash list
 
 # 恢复修改工作区内容，会从 git stash list 移除掉
 # 恢复最近一次保存内容到工作区，默认会把暂存区的改动恢复到工作区
-$ git stash pop 
+$ git stash pop
 # 恢复指定 id，通过 git stash list 可查到
-$ git stash pop stash@{1} 
+$ git stash pop stash@{1}
 # 恢复最近一次保存内容到工作区，但如果是暂存区的内容同样恢复到暂存区
-$ git stash pop --index 
+$ git stash pop --index
 
 # 与 pop 命令一致，唯一不同的是不会移除保存列表
 $ git stash apply
@@ -395,8 +397,8 @@ $ git shortlog -e
 
 ```shell{2}
 # 当回滚某个版本时记录是不保存在 git log 中，想要找到这条回滚版本信息时 git reflog 就用上了。
-$ git reflog 
-# 等价于 
+$ git reflog
+# 等价于
 $ git log -g --abbrev-commit --pretty=oneline
 ```
 ## 18.  回滚版本
@@ -452,11 +454,11 @@ $ git checkout 8efef3d37 1.txt 2.txt
 ```shell
 # 切换目录
 $ cd e:
-$ cd .. 
+$ cd ..
 $ cd ...
 $ cd ~
 # 使用 通配符*，只有一个f开头的文件夹，它就会进入到这个文件夹
-$ cd f*  
+$ cd f*
 
 # 查看文件内容
 $ cat README.md
@@ -467,14 +469,14 @@ $ pwd
 # 查看当前目录中的所有文件
 $ ls
 # windows不起作用
-$ ll 
+$ ll
 
 # 新建一个文件
 $ touch README.md
 $ echo "
-	hello 
+	hello
 	world" > README.md
-  
+
 # 新建一个文件夹
 $ mkdir <file-name>
 
